@@ -11,6 +11,7 @@ Error handling for network and decoding issues
 1️⃣ Fetching Data
 Here's how you can use NetworkManager to fetch and decode JSON data:
 
+```ruby
 struct Article: Decodable {
     let title: String
     let body: String
@@ -30,6 +31,7 @@ networkManager.fetchData(urlString: urlString) { (result: Result<Article, Error>
     }
 }
 
+```
 # 2️⃣ Handling Errors
 NetworkManager provides custom error handling for various scenarios:
 
