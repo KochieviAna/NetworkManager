@@ -1,11 +1,13 @@
 NetworkManager is a lightweight Swift library designed to simplify network requests and data fetching in iOS applications. It provides a straightforward interface for making HTTP requests and handling responses with ease.
 
-📌 Features
+# 📌 Features
+
 Simplified API for making network requests
 Supports fetching and decoding JSON data
 Error handling for network and decoding issues
 
-🚀 Usage
+# 🚀 Usage
+
 1️⃣ Fetching Data
 Here's how you can use NetworkManager to fetch and decode JSON data:
 
@@ -27,12 +29,13 @@ networkManager.fetchData(urlString: urlString) { (result: Result<Article, Error>
         print("Error fetching data: \(error.localizedDescription)")
     }
 }
-2️⃣ Handling Errors
+
+# 2️⃣ Handling Errors
 NetworkManager provides custom error handling for various scenarios:
 
 CustomErrors.wrongResponse: Indicates an invalid response or data.
 CustomErrors.statusCode: Indicates an unexpected HTTP status code.
 You can handle these errors in the completion handler as shown above.
 
-🔧 Configuration
+# 🔧 Configuration
 Currently, NetworkManager uses default configurations. For advanced usage, you might consider extending its functionality to support custom headers, HTTP methods, and request parameters.
