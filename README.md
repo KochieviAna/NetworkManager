@@ -1,4 +1,4 @@
-NetworkManager is a lightweight Swift library designed to simplify network requests and data fetching in iOS applications. It provides a straightforward interface for making HTTP requests and handling responses with ease.
+NetworkManager is a lightweight Swift library I have designed to simplify network requests and data fetching in iOS applications. It provides a straightforward interface for making HTTP requests and handling responses with ease.
 
 # 📌 Features
 
