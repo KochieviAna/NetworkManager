@@ -8,7 +8,7 @@ Error handling for network and decoding issues
 
 # Usage
 
-1️⃣ Fetching Data
+# 1️⃣ Fetching Data
 Here's how you can use NetworkManager to fetch and decode JSON data:
 
 ```ruby
